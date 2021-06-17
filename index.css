@@ -1,13 +1,12 @@
 
 body{
-  display: flex
+  display: flex;
 }
 
 main{
   display: flex;
   overflow: scroll;
   align-items: space-evenly;
-  background-color: lavender;
 }
 
 .tile{

@@ -13,6 +13,9 @@ main{
 }
 
 .tile{
+  border: solid rgb(78, 78, 235) 2px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
   margin: 10px;
   max-width: 180px;
   width: 180px;
@@ -49,5 +52,7 @@ main{
 }
 
 #image{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 

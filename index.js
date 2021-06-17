@@ -17,8 +17,8 @@ function generateAge(){
   return Math.floor(Math.random() * 100)
 }
 
-function generateTiles(){
-  for(let i = 1; i <= 100; i++){
+function generateTiles(num){
+  for(let i = 1; i <= num; i++){
     let br = document.createElement("br")
 
     //tile append
@@ -74,4 +74,4 @@ function generateTiles(){
   }
 }
 
-generateTiles()
+generateTiles(100)

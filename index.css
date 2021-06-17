@@ -1,0 +1,33 @@
+
+main{
+  display: flex;
+}
+
+.tile{
+  max-width: 180px;
+  max-height: 170px;
+  display: inline-flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.content{
+  flex-direction: column;
+}
+
+#username{
+  font-size: smaller;
+}
+
+#age{
+  font-size: smaller;
+}
+
+#description{
+  font-size: smaller;
+}
+

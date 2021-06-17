@@ -1,18 +1,35 @@
 
+body{
+  display: flex
+}
+
 main{
+
   display: flex;
+
+  overflow: scroll;
+  /* flex-direction: row; */
+  align-items: space-evenly;
 }
 
 .tile{
+  margin: 10px;
   max-width: 180px;
+  width: 180px;
   max-height: 170px;
+  height: 170px;
   display: inline-flex;
+  flex-wrap: wrap;
 }
 
 .container{
+  max-width: 180px;
+  width: 180px;
+  max-height: 170px;
+  height: 170px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 }
 
 .content{
@@ -29,5 +46,8 @@ main{
 
 #description{
   font-size: smaller;
+}
+
+#image{
 }
 

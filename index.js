@@ -28,13 +28,15 @@ function generateTiles(){
     document.getElementById("main").appendChild(tile);
 
     //tile container append
-    let container = document.createElement("ul")
+    let container = document.createElement("div")
     container.setAttribute("class", "container")
     tile.appendChild(container)
 
     //image append
     let image = document.createElement("img")
-    image.setAttribute('src', `https://picsum.photos/40/20?random=${i}`)
+    image.setAttribute('src', `https://picsum.photos/160/90?random=${i}`)
+    image.setAttribute("id", "image")
+    image.setAttribute("class", "content")
     container.appendChild(image)
 
 
@@ -52,7 +54,7 @@ function generateTiles(){
     let tileAge = document.createElement("div")
     tileAge.setAttribute("id", "age")
     tileAge.setAttribute("class", "content")
-    let age = document.createTextNode(`${generateAge()}`)
+    let age = document.createTextNode(`age: ${generateAge()}`)
     tileAge.appendChild(age)
     container.appendChild(tileAge)
 
